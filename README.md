@@ -16,17 +16,17 @@ To use the Gitian builder, follow these steps:
 
 1. Clone this repository:
 
-git clone https://github.com/your-username/rupaya-gitian-builder.git
+```git clone https://github.com/mo-bay/rupaya-gitian-builder.git```
 
 2. Navigate to the `rupaya-gitian-builder` directory:
 
-`cd rupaya-gitian-builder`
+```cd rupaya-gitian-builder```
 
 3. Modify the environment variables in the `Dockerfile` as needed. For example, you can change the default branch or tag to build, or add/remove platforms to build.
 
 4. Run the Python script to select a tag to build and specify the platforms:
 
-`python3 build.py rupaya-project/rupaya osx win`
+```python3 build.py rupaya-project/rupaya osx win```
 
 
 Replace `rupaya-project/rupaya` with the GitHub organization and project name, and `osx win` with the platforms you want to build.
