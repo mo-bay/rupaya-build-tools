@@ -83,4 +83,4 @@ def main():
     parser = argparse.ArgumentParser(description="Build binaries for different platforms using Gitian descriptors")
     parser.add_argument("org_project", metavar="ORG/PROJECT", nargs="?", default=DEFAULT_ORG_PROJECT, help="GitHub organization and project (default: rupaya-project/rupaya)")
     parser.add_argument("platforms", metavar="PLATFORM", nargs="*", default=DEFAULT_PLATFORMS, help="Platforms to build (default: osx win linux)")
-    args = parser.parse_args
+    args = parser.parse_args()
